@@ -21,9 +21,9 @@
         <script src="admin/assets/vendor/jquery/jquery.min.js"></script>
         <script src="admin/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
 
-    <script type="text/javascript" src="admin/assets/js/select2.min.js"></script>
+        <script type="text/javascript" src="admin/assets/js/select2.min.js"></script>
 
-    <script type="text/javascript" src="admin/assets/js/jquery.datetimepicker.full.min.js"></script>
+        <script type="text/javascript" src="admin/assets/js/jquery.datetimepicker.full.min.js"></script>
 
 
 

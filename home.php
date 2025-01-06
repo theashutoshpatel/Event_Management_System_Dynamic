@@ -2,7 +2,6 @@
 include 'admin/db_connect.php'; 
 ?>
 <style>
-/* Apply a background image to the header */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -11,7 +10,7 @@ body {
 }
 
 header.masthead {
-    background-image: url('Concert_banner.jpg'); /* Add your attractive banner image here */
+    background-image: url('Concert_banner.jpg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -27,7 +26,7 @@ header.masthead {
 h3 {
     font-size: 2.5rem;
     animation: slideUp 1s ease-in-out;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Add a shadow to make the text stand out */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); 
 }
 
 hr.divider {
@@ -53,7 +52,7 @@ hr.divider {
 
 .card-body {
     flex-grow: 1;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(222 208 208 / 60%);
     padding: 1.5rem;
     border-radius: 8px;
 }
@@ -119,11 +118,11 @@ button.read_more:hover {
     }
 }
 #d1 {
-    font-size: 2rem; /* Adjust the font size as needed */
-    font-weight: bold; /* Optional: make the text bold */
+    font-size: 2rem; 
+    font-weight: bold; 
     background: linear-gradient(90deg, rgba(4,3,23,1) 0%, rgba(171,28,28,1) 35%, rgba(23,40,43,1) 100%);
-    -webkit-background-clip: text; /* Ensures the gradient is applied to the text */
-    color: transparent; /* Set color to transparent so the gradient shows through */
+    -webkit-background-clip: text; 
+    color: transparent; 
 }
 
 

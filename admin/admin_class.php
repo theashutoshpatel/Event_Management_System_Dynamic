@@ -17,23 +17,28 @@ Class Action {
 
 	function login(){
 		extract($_POST);
-		$qry = $this->db->query("SELECT * FROM users where username = '".$username."' and password = '".md5($password)."' ");
+		// Update the query to use email instead of username
+		$qry = $this->db->query("SELECT * FROM users WHERE email = '".$email."' AND password = '".md5($password)."' ");
+		
 		if($qry->num_rows > 0){
 			foreach ($qry->fetch_array() as $key => $value) {
-				if($key != 'passwors' && !is_numeric($key))
+				if($key != 'password' && !is_numeric($key)) {
 					$_SESSION['login_'.$key] = $value;
+				}
 			}
-				return 1;
-		}else{
-			return 3;
+			return 1; // Successful login
+		} else {
+			return 3; // Invalid login credentials
 		}
 	}
+	
 	function logout(){
 		session_destroy();
 		foreach ($_SESSION as $key => $value) {
 			unset($_SESSION[$key]);
 		}
-		header("location:login.php");
+		header("location: login.php");
+		exit();
 	}
 
 	function save_user(){

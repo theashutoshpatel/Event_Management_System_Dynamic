@@ -115,6 +115,7 @@
     <a href="index.php?page=venue" class="nav-item nav-venue"><span class='icon-field'><img width="35" height="35" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-venue-night-club-flaticons-lineal-color-flat-icons-3.png" alt="Refresh"/></span> Venues</a>
     <a href="index.php?page=events" class="nav-item nav-events"><span class='icon-field'><img width="35" height="35" src="https://img.icons8.com/matisse/100/event-accepted.png" alt="event-accepted"/></span> Events</a>
     <a href="index.php?page=users" class="nav-item nav-users"><span class='icon-field'><img width="35" height="35" src="https://img.icons8.com/doodle/48/group--v1.png" alt="group--v1"/></span> Users</a>
+    <!-- <a href="index.php?page=users" class="nav-item nav-users"><span class='icon-field'><img width="35" height="35" src="https://img.icons8.com/doodle/48/group--v1.png" alt="group--v1"/></span> Users</a> -->
   </div>
 </div>
 

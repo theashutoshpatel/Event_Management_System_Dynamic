@@ -130,3 +130,23 @@ if($action == "get_pdetails"){
 	if($get)
 		echo $get;
 }
+
+
+if ($action == 'register') {
+    extract($_POST);
+    if ($password != $confirm_password) {
+        echo 0; // Password mismatch
+        exit;
+    }
+    $password = md5($password); // Encrypt the password
+    $check = $conn->query("SELECT * FROM users WHERE username = '$username' OR email = '$email'");
+    if ($check->num_rows > 0) {
+        echo 2; // Username or Email already exists
+    } else {
+        $insert = $conn->query("INSERT INTO users (name, username, email, password) VALUES ('$name', '$username', '$email', '$password')");
+        echo $insert ? 1 : 0;
+    }
+}
+
+
+

@@ -1,31 +1,11 @@
--- phpMyAdmin SQL Dump
--- version 5.0.2
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Oct 14, 2020 at 11:00 AM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.2.33
+-- Some More data base command are not written ⚠️
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `event_db`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `audience`
--- 
 
 CREATE TABLE `audience` (
   `id` int(11) NOT NULL,
@@ -105,12 +85,13 @@ INSERT INTO `system_settings` (`id`, `name`, `email`, `contact`, `cover_img`, `a
 --
 
 CREATE TABLE `users` (
-  `id` int(30) NOT NULL,
-  `name` text NOT NULL,
-  `username` varchar(200) NOT NULL,
-  `password` text NOT NULL,
-  `type` tinyint(1) NOT NULL DEFAULT 2 COMMENT '1=Admin,2=Staff'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(100),
+    `username` VARCHAR(50) UNIQUE,
+    `email` VARCHAR(100) UNIQUE,
+    `password` VARCHAR(255),
+    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 
 --
 -- Dumping data for table `users`
@@ -249,6 +230,3 @@ ALTER TABLE `venue_booking`
   MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

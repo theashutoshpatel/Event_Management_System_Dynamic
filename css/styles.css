@@ -10392,16 +10392,26 @@ div#menu-field img, div#menu-field .menu-item-details {
 section {
     background: #cccccc;
 }
-header.masthead:before {
-    content: "";
-    background: #00000087;
-    position: absolute;
-    width: calc(100%);
-    /* height: calc(100%); */
-    top: 0;
-    height: 60vh;
-    z-index: 1;
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  height: 60vh; /* You can adjust this value based on your requirement */
 }
+
+header.masthead:before {
+  content: "";
+  background-image: url('../assets/Venue banner.jpg'); /* Make sure the path is correct */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensures the image stays behind the content */
+}
+
 header.masthead>div{
 position: relative;
 z-index: 2;
