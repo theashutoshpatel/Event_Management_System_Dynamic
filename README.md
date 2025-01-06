@@ -56,29 +56,29 @@ Welcome to the **Event Management System** repository! This system is designed t
 
 Live Preview of Project :
 𝗨𝗦𝗘𝗥 𝗛𝗢𝗠𝗘 𝗣𝗔𝗚𝗘
-![User_Homepage](https://github.com/user-attachments/assets/25a92fa7-b310-4c93-ba58-05a411f96560)
+![Screenshot (89)](https://github.com/user-attachments/assets/12e6d397-e2f7-426b-b91c-2aa8bb6367cd)
 𝐔𝐒𝐄𝐑 𝐕𝐄𝐍𝐔𝐄S 𝟏:
-![Venue1](https://github.com/user-attachments/assets/43294312-0763-48bc-8255-a39bb8c56804)
+![Screenshot (91)](https://github.com/user-attachments/assets/8a21f77b-93cb-4460-b36a-805b0d9495a3)
 𝐔𝐒𝐄𝐑 𝐕𝐄𝐍𝐔𝐄𝐒 𝟐:
-![venue2](https://github.com/user-attachments/assets/f9e5b4e1-e2f8-4f01-9659-b1c33a67dfc6)
+![Screenshot (92)](https://github.com/user-attachments/assets/4fcb307d-c742-4ac7-b584-3d2ecb71a268)
 𝐔𝐒𝐄𝐑 𝐀𝐁𝐎𝐔𝐓 :
-![user_About](https://github.com/user-attachments/assets/83a21949-ab68-4f0d-9a76-7a305d3f715e)
+![Screenshot (93)](https://github.com/user-attachments/assets/d5e500f2-bab3-457b-8f4a-10752d75585a)
 𝐔𝐒𝐄𝐑 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 :
-![User_Contact](https://github.com/user-attachments/assets/07a60fec-dc3d-453d-9156-2262de231079)
+![Screenshot (90)](https://github.com/user-attachments/assets/5bee966d-05d7-4f57-9a76-70e267fc518f)
+<b>ADMIN LOGIN:</b>
+![Screenshot (81)](https://github.com/user-attachments/assets/874ef19e-eeb0-45ce-8f79-80c10d8269cc)
+<b>ADMIN REGISTRATION:</b>
+![Screenshot (83)](https://github.com/user-attachments/assets/4101cc8c-a29c-48dd-aee6-da2ebdbf4819)
 𝐀𝐃𝐌𝐈𝐍 𝐏𝐀𝐆𝐄 1:
-![Admin1](https://github.com/user-attachments/assets/9c7f45c8-e4ce-47b0-b11c-a0ffdf665868)
+![Screenshot (84)](https://github.com/user-attachments/assets/cd71a17b-dbaf-4cc6-a2ff-816a5114b980)
 𝐀𝐃𝐌𝐈𝐍 𝐏𝐀𝐆𝐄 2:
-![Admin2](https://github.com/user-attachments/assets/a175d506-9927-42f2-aef0-70788995cb16)
+![Screenshot (85)](https://github.com/user-attachments/assets/24fd977b-0222-4ca5-b477-208c12dda7be)
 𝐀𝐃𝐌𝐈𝐍 𝐏𝐀𝐆𝐄 3:
-![Admin3](https://github.com/user-attachments/assets/1186ed3e-6f6d-4af3-ae8d-7ddb88ab6b5f)
+![Screenshot (86)](https://github.com/user-attachments/assets/b5c39f83-eafa-46bc-bdb6-0eb4368e4cd3)
 𝐀𝐃𝐌𝐈𝐍 𝐏𝐀𝐆𝐄 4:
-![Admin4](https://github.com/user-attachments/assets/6797567d-f6fe-4357-8c69-7c460df372cc)
+![Screenshot (87)](https://github.com/user-attachments/assets/c6be6d20-a8d6-40a3-af82-bbc10b027d85)
 𝐀𝐃𝐌𝐈𝐍 𝐏𝐀𝐆𝐄 5:
-![Admin5](https://github.com/user-attachments/assets/4962393d-49e9-4e26-8e08-93f9ebdc3d21)
-𝐀𝐃𝐌𝐈𝐍 𝐏𝐀𝐆𝐄 𝟔:
-![Admin6](https://github.com/user-attachments/assets/aaa10287-ebff-4670-88bb-551a0b6a47e9)
-𝐀𝐃𝐌𝐈𝐍 𝐋𝐎𝐆𝐈𝐍 𝐏𝐀𝐆𝐄:
-![Login](https://github.com/user-attachments/assets/dc59d4ec-bb76-4417-b651-c6f3f2f51b79)
+![Screenshot (88)](https://github.com/user-attachments/assets/211c1705-dbd9-44b5-8589-a439caccade7)
 <b>USER LOGIN PAGE:</b>
 ![Screenshot (79)](https://github.com/user-attachments/assets/1d3a3f32-0f65-468a-8e7e-e3a75b84727b)
 <b>USER REGISTRATION PAGE:<b>
